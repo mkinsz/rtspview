@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style.qss</file>
+        <file>screenshot.png</file>
+        <file>close.png</file>
+        <file>treeview/arrowBottom.png</file>
+        <file>treeview/arrowBottomHover.png</file>
+        <file>treeview/arrowLeft.png</file>
+        <file>treeview/arrowLeftHover.png</file>
+        <file>treeview/arrowRight.png</file>
+        <file>treeview/arrowRightHover.png</file>
+        <file>treeview/arrowTop.png</file>
+        <file>treeview/arrowTopHover.png</file>
+        <file>treeview/branchClose.png</file>
+        <file>treeview/branchOpen.png</file>
+        <file>config.xml</file>
+        <file>main.png</file>
+    </qresource>
+</RCC>
