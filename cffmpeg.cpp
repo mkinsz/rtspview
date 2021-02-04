@@ -175,6 +175,10 @@ void CFFmpeg::decode(AVCodecContext *dec_ctx, AVPacket *pkt, AVFrame *frame)
 
         fflush(stdout);
 
+//        if(frame->key_frame) {
+
+//        }
+
         sws_scale(m_pSwsCtx, static_cast<const uint8_t* const *>(frame->data), frame->linesize, 0, frame->height, m_pAVPicture->data, m_pAVPicture->linesize);
         qDebug() << "Play: " << QThread::currentThreadId()
                  << m_width << m_height

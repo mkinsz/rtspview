@@ -115,6 +115,7 @@ DISTFILES += \
     android/gradle/wrapper/gradle-wrapper.properties \
     android/gradlew \
     android/gradlew.bat \
+    android/org/mk/tview/main.java \
     android/res/values/libs.xml \
     readme.md
 
